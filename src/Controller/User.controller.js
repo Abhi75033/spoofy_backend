@@ -1,7 +1,7 @@
 import {User} from '../Models/User.model.js'
 import jwt from 'jsonwebtoken'
 import {asyncHandler} from '../Utils/AsyncHandler.utils.js'
-import {ApiError} from '../Utils/ApiError.utils.js'
+import {ApiError} from "../Error/ApiError.js"
 import {ApiResPonse} from '../Utils/ApiResponse.utils.js'
 import {UploadOnCloudinary} from '../Utils/Cloudinary.utils.js'
 

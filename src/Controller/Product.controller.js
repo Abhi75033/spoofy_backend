@@ -1,4 +1,4 @@
-import { ApiError } from '../Utils/ApiError.utils.js'
+import { ApiError } from "../Error/ApiError.js"
 import { ApiResPonse } from '../Utils/ApiResponse.utils.js'
 import {asyncHandler} from '../Utils/AsyncHandler.utils.js'
 import {UploadOnCloudinary} from '../Utils/Cloudinary.utils.js'

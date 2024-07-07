@@ -1,6 +1,6 @@
 import {v2 as cloudinary} from 'cloudinary'
 import fs from 'fs'
-import { ApiError } from "./ApiError.utils.js";
+import { ApiError } from "../Error/ApiError.js";
 import { ApiResPonse } from "./ApiResponse.utils.js";
 // import exp from "constants";
 
